@@ -33,7 +33,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 
 
 
-ALLOWED_HOSTS = ['touchbook.up.railway.app', 'localhost']
+ALLOWED_HOSTS = ['touchbook.up.railway.app', 'touchbook-dev.up.railway.app', 'localhost']
 
 CORS_ALLOWED_ORIGINS = ['https://' + host for host in ALLOWED_HOSTS]
 
